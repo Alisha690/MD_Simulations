@@ -1,7 +1,7 @@
 ; Run parameters
 integrator              = md        ; leap-frog integrator
-nsteps                  = 50000    ; 10 * 10000 = 100 ps (0.1 ns)
-dt                      = 0.002     ; 10 fs
+nsteps                  = 10000    ; 10 * 10000 = 100 ps (0.1 ns)
+dt                      = 0.01     ; 10 fs
 
 ; Output control
 nstxout                 = 0         ; suppress bulky .trr file by specifying 
